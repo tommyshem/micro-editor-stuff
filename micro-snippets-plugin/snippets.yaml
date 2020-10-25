@@ -1,0 +1,25 @@
+filetype: snippets
+
+detect:
+    filename: "\\.snippets$"
+
+rules:
+    # snippet keyword
+    - statement: 
+        start: "\\b(snippet)\\b"
+        end: "$"
+        rules:
+            - special: "\\s.+"
+
+    # placeholder 
+    - identifier: 
+        start: "\\$\\{[0-9]+"
+        end: "\\}"
+        rules:
+            - preproc: "\\:[\\s*\\w*]+"
+
+    - comment:
+            start: "^#"
+            end: "$"
+            rules:
+                - todo: "(TODO|XXX|FIXME):?"
