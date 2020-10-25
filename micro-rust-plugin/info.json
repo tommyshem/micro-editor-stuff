@@ -1,0 +1,10 @@
+{
+    "name": "rust",
+    "description": "Rust Language plugin",
+    "website": "",
+    "install": "",
+    "version": "0.2.0",
+    "require": [
+        "micro >= 2.0.0"
+    ]
+}
