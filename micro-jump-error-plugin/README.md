@@ -1,28 +1,6 @@
 # Introduction
 
-This is a simple snippet plugin for the [Micro](https://github.com/zyedidia/micro) editor.
-
-
-## Check which version of micro editor you have
-
-```bash
-micro --version
-```
-
-## Install Jump Error Plugin
-
-### From Micro Version 2
-
-```bash
-mkdir ~/.config/micro/plug
-git clone https://github.com/tommyshem/micro-jump-error-plugin ~/.config/micro/plug/gutter-plugin
-```
-
-## Help inside micro editor for this plugin
-
-When installed, to view the help file inside micro editor, type in below:
-
-<kbd>Ctrl</kbd> <kbd>e</kbd>
+This is a simple jump to errors plugin for the [Micro](https://github.com/zyedidia/micro) editor.
 
 ## Custom Key Bindings
 
